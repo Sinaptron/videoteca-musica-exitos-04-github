@@ -1,0 +1,192 @@
+fuente original
+de carpeta proyectos web - portafolio
+ok pagweb-filmlane-master - en linea
+
+correcciones:
+para movil:
+redes sociales footer no se ven
+chevron flecha arriba no se ve, solo el circulo
+iconos de pagina amiga solo se ven punteados loss circulos
+>>>> al seleccionar se ve amarillo sin icono
+darle un poco mas de espacio entre cada section
+
+vista en general
+boton bienvenidos... poner todo de amarillo ?
+poster de 70 80 900 2000 salen conrtados
+album beegee y abba, sale cortados arriba y abajo
+botones arriba de los videos se ven con un borde negro (poner todos en amarillo ?)
+separa botn enviar de los input en sugerencias solo en vista web, en moviul se ve bien
+
+
+colores HSL HWB RGB
+https://hslpicker.com/#192194
+
+
+
+compresor de videos
+https://www.freeconvert.com/es/video-compressor
+
+
+
+buscar los sgi class en estilos is no botrralos
+      <section class="tv-series">
+        <div class="container">
+
+          <p class="section-subtitle">catalogo</p>
+
+          <h2 class="h2 section-title">Musica Hits de los 80´s</h2>
+
+          <ul class="movies-list">
+
+            <li>
+              <div class="movie-card">
+
+                <a>
+                  <figure class="card-banner">
+                    <img src="./assets/images/series-1.png" alt="Moon Knight movie poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a>
+                    <h3 class="card-title">Bee Gees -exito 01</h3>
+                  </a>
+
+                  <time datetime="2022">1982</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">2K</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT47M">5.12 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>8.6</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a>
+                  <figure class="card-banner">
+                    <img src="./assets/images/series-1.png" alt="Moon Knight movie poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a>
+                    <h3 class="card-title">Bee Gees -exito 01</h3>
+                  </a>
+
+                  <time datetime="2022">1982</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">2K</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT47M">5.12 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>8.6</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a>
+                  <figure class="card-banner">
+                    <img src="./assets/images/series-1.png" alt="Moon Knight movie poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a>
+                    <h3 class="card-title">Bee Gees -exito 01</h3>
+                  </a>
+
+                  <time datetime="2022">1982</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">2K</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT47M">5.12 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>8.6</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a>
+                  <figure class="card-banner">
+                    <img src="./assets/images/series-1.png" alt="Moon Knight movie poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a>
+                    <h3 class="card-title">Bee Gees -exito 01</h3>
+                  </a>
+
+                  <time datetime="2022">1982</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">2K</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT47M">5.12 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>8.6</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+ 
+
