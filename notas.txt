@@ -9,13 +9,23 @@ chevron flecha arriba no se ve, solo el circulo
 iconos de pagina amiga solo se ven punteados loss circulos
 >>>> al seleccionar se ve amarillo sin icono
 darle un poco mas de espacio entre cada section
+botones arriba de videos, falta efecto de hover
 
 vista en general
-boton bienvenidos... poner todo de amarillo ?
-poster de 70 80 900 2000 salen conrtados
-album beegee y abba, sale cortados arriba y abajo
-botones arriba de los videos se ven con un borde negro (poner todos en amarillo ?)
 separa botn enviar de los input en sugerencias solo en vista web, en moviul se ve bien
+
+COBRE HYDRATED:
+si usas Ionic o StencilJS
+Si tu proyecto usa una de estas tecnologías, es normal ver "hydrated" en componentes personalizados (<ion-button>, <my-component>, etc.).
+Si quieres evitar que aparezca, puedes intentar sobrescribir su estilo en CSS:
+
+.hydrated {
+  display: unset; /* O cualquier otro valor */
+}
+
+
+
+
 
 
 colores HSL HWB RGB

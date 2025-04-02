@@ -206,7 +206,7 @@ body.active { overflow: hidden; }
 /*  BUTTONS */
 
 .btn {
-  color: var(--white);
+  color: var(--eerie-black);
   font-size: var(--fs-11);
   font-weight: var(--fw-700);
   text-transform: uppercase;
@@ -216,17 +216,21 @@ body.active { overflow: hidden; }
   gap: 10px;
   padding: 16px 30px;
   border: 2px solid var(--citrine);
+  background-color: var(--citrine);
   border-radius: 50px;
   transition: var(--transition-1);
 }
 
+
 .btn > ion-icon { font-size: 18px; }
 
-.btn-primary { background: var(--rich-black-fogra-29); }
-
-.btn-primary:is(:hover, :focus) {
+.btn-primary { 
   background: var(--citrine);
-  color: var(--xiketic);
+}
+
+.btn-primary:hover {
+  background: var(--xiketic);
+  color: var(--citrine);
 }
 
 /*  MOVIE CARD */
@@ -267,16 +271,16 @@ body.active { overflow: hidden; }
   height: auto; /* Permite que el contenido defina la altura */
 }
 
-.movie-card .card-banner::after {
+/* .movie-card .card-banner::after {
   content: "";
   position: absolute;
   inset: 0;
   transition: var(--transition-1);
-}
+} */
 
-.movie-card .card-banner:hover { box-shadow: 0 1px 2px hsla(0, 0%, 0%, 0.5); }
+/* .movie-card .card-banner:hover { box-shadow: 0 1px 2px hsla(0, 0%, 0%, 0.5); } */
 
-.movie-card .card-banner:hover::after { background: hsla(0, 0%, 100%, 0.05); }
+/* .movie-card .card-banner:hover::after { background: hsla(0, 0%, 100%, 0.05); } */
 
 .movie-card .card-banner img {
   width: 100%;
@@ -678,7 +682,7 @@ body.active { overflow: hidden; }
 \*-----------------------------------*/
 
 .top-rated {
-  background: url("../images/top-rated-bg.jpg") no-repeat;
+  /* background: url("../images/top-rated-bg.jpg") no-repeat; */
   background-size: cover;
   background-position: center;
   padding-block: var(--section-padding);
@@ -698,14 +702,22 @@ body.active { overflow: hidden; }
   font-size: var(--fs-10);
   font-weight: var(--fw-700);
   text-transform: uppercase;
-  padding: 17px 25px;
-  border-radius: 4px;
-  box-shadow: inset 0 3px 7px hsla(0, 0%, 0%, 0.8);
+  padding: 15px 25px;
+  border-radius: 10px;
+  box-shadow: 0 3px 7px var(--citrine);
 }
 
+.top-rated .filter-btn:hover {
+  background: var(--citrine);
+  color: var(--rich-black-fogra-39);
+  box-shadow: 0 3px 7px var(--light-gray);
+}
+
+/* background: var(--rich-black-fogra-39); */
+
 .top-rated .filter-btn:focus {
+  background: var(--gunmetal-2);
   color: var(--citrine);
-  text-shadow: 0 3px 25px hsla(57, 97%, 45%, 0.5);
 }
 
 .top-rated .filter-btn:focus::before,
